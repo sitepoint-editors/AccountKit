@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_4f9e5ececcd30189dda74f527628c8dc7d49bed2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\3a0946bb8a049899486083a8c81430678235727c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a77b722ca6c693d94e7d4d20c7a75f8d9f6c20c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\84ba8d26251aa732c617f7fa6caacc943a785842\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f283f4a995e3701209916afb0980d3af35377ce0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\1389d4fa4c0e9e1d628939dcee1a89e5af0fd605\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d776668425a71524b216cb783323381e67f8e0ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\3ceef563b17bd952c0100aeaae04bbe6bee57b48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17ea1a74054f610247928d12c7e28fe0f3497d27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\7685e091ba256cdb7784aee386d9323ce2279a1e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6470a3b00dfe5c7a413bf7d8e273b6dbf876cc07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\0465ad4720583856b64b24d2ddc1dca7a63e7754\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f2ec16f644c389fe89dce43662792c91a2a5edc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\3571bce4a9cbe03a029c94938941d3804766a268\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_38b4d78d79bf2f8304253d205a1716437df61d66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\ded56fb878feb735988ad6aa4957ed7f066df2db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8bca4333bc4b47886a741972c00cb782816235d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\a33f6dd8b6506e2caacdcfe69ec9db3d3e0e46b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0efe7f58f1c94da7cc8b7cf77103743c79f34ef5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\1389d4fa4c0e9e1d628939dcee1a89e5af0fd605\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7bbed9f334e738eef1d17a00f932ebbaf536d476\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\3571bce4a9cbe03a029c94938941d3804766a268\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4393b5c140a2433b4133ee3e2be121a525e3edf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\a33f6dd8b6506e2caacdcfe69ec9db3d3e0e46b7\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_0d3ee51e6c6ed6e17d34a661c2ebe573c13e2f38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_046aaebdec8ccc2eb6e94df0779ceb396041ce90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\3a0946bb8a049899486083a8c81430678235727c\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_89aa2932fb5638b05bf9a4d2f9df9a220d8df3ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\989dd79491190b12b86bf5855582b33f26a623bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7bc6e3cc826c1bd211c4d3446888555e6e725bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\a93b554f2a9406c775e42900f337c94fd4248f77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8d9f5453585315e511e38a745d69e8a67e29fa23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1b2e70ca442dee85a6f0a9c28cb35f5f6bb8e3cc">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_05198b717c157a572a95cdf6caefa835c8e1e4d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\a51782297e8142370aeb7ff33ef0787feef85fb0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a17414069bf3b21eb01f719fcc2406a17adc3233">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1029fe7dc51446a0d959f5eaf085d53916c674b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\20bab09a3482b89812d273a5ee6b9329f69f84d6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd8f322a7bd767bd0ea6e451e8c134776347e511\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\.android\build-cache\0465ad4720583856b64b24d2ddc1dca7a63e7754\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_52930a8dfff46e41009ca7ba3da99ef705693d9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Dori\AndroidProjects\FbAccountKit\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_75fce826df4cd5849924d3b6f890f551e79b2343\classes.dex" />
+    </item>
+
+</items>
