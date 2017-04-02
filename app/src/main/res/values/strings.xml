@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FbAccountKit</string>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">YOUR_ACCOUNT_KIT_CLIENT_TOKEN</string>
+    <string name="ak_login_protocol_scheme">ak_YOUR_FACEBOOK_APP_ID</string>
+</resources>
