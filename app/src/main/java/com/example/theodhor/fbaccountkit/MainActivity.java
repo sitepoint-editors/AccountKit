@@ -33,29 +33,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AccessToken accessToken = AccountKit.getCurrentAccessToken();
+        getCurrentAccount();
+    }
 
+    private void getCurrentAccount(){
+        AccessToken accessToken = AccountKit.getCurrentAccessToken();
         if (accessToken != null) {
             //Handle Returning User
-                    AccountKit.getCurrentAccount(new AccountKitCallback<Account>() {
+            AccountKit.getCurrentAccount(new AccountKitCallback<Account>() {
                 @Override
                 public void onSuccess(final Account account) {
                     // Get Account Kit ID
                     String accountKitId = account.getId();
-                    Log.e(TAG, accountKitId);
+                    Log.e("Account Kit Id", accountKitId);
 
                     if(account.getPhoneNumber()!=null) {
-                        Log.e(TAG, accountKitId + "-" + account.getPhoneNumber().getCountryCode());
-                        Log.e(TAG, accountKitId + "-" + account.getPhoneNumber().getPhoneNumber());
+                        Log.e("CountryCode", "" + account.getPhoneNumber().getCountryCode());
+                        Log.e("PhoneNumber", "" + account.getPhoneNumber().getPhoneNumber());
 
                         // Get phone number
                         PhoneNumber phoneNumber = account.getPhoneNumber();
                         String phoneNumberString = phoneNumber.toString();
-                        Log.e(TAG, phoneNumberString);
+                        Log.e("NumberString", phoneNumberString);
                     }
 
                     if(account.getEmail()!=null)
-                        Log.e(TAG,account.getEmail());
+                        Log.e("Email",account.getEmail());
                 }
 
                 @Override
@@ -73,8 +76,7 @@ public class MainActivity extends AppCompatActivity {
     public void phoneLogin(@Nullable View view) {
         final Intent intent = new Intent(this, AccountKitActivity.class);
         AccountKitConfiguration.AccountKitConfigurationBuilder configurationBuilder = new AccountKitConfiguration.AccountKitConfigurationBuilder(
-                LoginType.PHONE,AccountKitActivity.ResponseType.TOKEN); // or .ResponseType.TOKEN
-        // ... perform additional configuration ...
+                LoginType.PHONE,AccountKitActivity.ResponseType.TOKEN); // or .ResponseType.CODE
         UIManager uiManager = new SkinManager(
                 LoginType.PHONE,
                 SkinManager.Skin.TRANSLUCENT,
@@ -91,19 +93,27 @@ public class MainActivity extends AppCompatActivity {
     public void emailLogin(@Nullable View view) {
         final Intent intent = new Intent(this, AccountKitActivity.class);
         AccountKitConfiguration.AccountKitConfigurationBuilder configurationBuilder = new AccountKitConfiguration.AccountKitConfigurationBuilder(
-                LoginType.EMAIL,AccountKitActivity.ResponseType.TOKEN); // or .ResponseType.TOKEN
-        // ... perform additional configuration ...
+                LoginType.EMAIL,AccountKitActivity.ResponseType.TOKEN); // or .ResponseType.CODE
         UIManager uiManager = new SkinManager(
-                LoginType.PHONE,
+                LoginType.EMAIL,
                 SkinManager.Skin.CLASSIC,
                 (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M ? getResources().getColor(R.color.colorPrimary,null):getResources().getColor(R.color.colorPrimary)),
                 R.drawable.background,
-                SkinManager.Tint.WHITE,
+                SkinManager.Tint.BLACK,
                 0.55
         );
+
         configurationBuilder.setUIManager(uiManager);
         intent.putExtra(AccountKitActivity.ACCOUNT_KIT_ACTIVITY_CONFIGURATION,configurationBuilder.build());
         startActivityForResult(intent, APP_REQUEST_CODE);
+    }
+
+    @Override
+    protected void onActivityResult(final int requestCode,final int resultCode,final Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == APP_REQUEST_CODE && resultCode == RESULT_OK) {
+            getCurrentAccount();
+        }
     }
 
     public void logout(@Nullable View view){
@@ -113,43 +123,6 @@ public class MainActivity extends AppCompatActivity {
             Log.e(TAG,"Still Logged in...");
         else
             Toast.makeText(this,"Logged Out",Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    protected void onActivityResult(final int requestCode,final int resultCode,final Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == APP_REQUEST_CODE) {
-
-            AccountKit.getCurrentAccount(new AccountKitCallback<Account>() {
-                @Override
-                public void onSuccess(final Account account) {
-                    // Get Account Kit ID
-                    String accountKitId = account.getId();
-                    Log.e(TAG, accountKitId);
-
-                    if(account.getPhoneNumber()!=null) {
-                        Log.e(TAG, accountKitId + "-" + account.getPhoneNumber().getCountryCode());
-                        Log.e(TAG, accountKitId + "-" + account.getPhoneNumber().getPhoneNumber());
-
-                        // Get phone number
-                        PhoneNumber phoneNumber = account.getPhoneNumber();
-                        String phoneNumberString = phoneNumber.toString();
-                        Log.e(TAG, phoneNumberString);
-                    }
-
-                    if(account.getEmail()!=null)
-                        Log.e(TAG,account.getEmail());
-
-
-                }
-
-                @Override
-                public void onError(final AccountKitError error) {
-                    // Handle Error
-                    Log.e(TAG, error.toString());
-                }
-            });
-        }
     }
 }
 
