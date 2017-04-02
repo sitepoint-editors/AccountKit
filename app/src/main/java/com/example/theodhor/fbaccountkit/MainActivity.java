@@ -42,16 +42,20 @@ public class MainActivity extends AppCompatActivity {
                 public void onSuccess(final Account account) {
                     // Get Account Kit ID
                     String accountKitId = account.getId();
+                    Log.e(TAG, accountKitId);
 
-                    // Get phone number
-                    PhoneNumber phoneNumber = account.getPhoneNumber();
-                    String phoneNumberString = phoneNumber.toString();
+                    if(account.getPhoneNumber()!=null) {
+                        Log.e(TAG, accountKitId + "-" + account.getPhoneNumber().getCountryCode());
+                        Log.e(TAG, accountKitId + "-" + account.getPhoneNumber().getPhoneNumber());
 
-                    // Get email
-                    String email = account.getEmail();
-                    Log.e(TAG,""+accountKitId);
-                    Log.e(TAG,""+phoneNumberString);
-                    Log.e(TAG,""+email);
+                        // Get phone number
+                        PhoneNumber phoneNumber = account.getPhoneNumber();
+                        String phoneNumberString = phoneNumber.toString();
+                        Log.e(TAG, phoneNumberString);
+                    }
+
+                    if(account.getEmail()!=null)
+                        Log.e(TAG,account.getEmail());
                 }
 
                 @Override
